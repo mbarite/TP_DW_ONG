@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+}
+
+header {
+    background-color: #d4b7b7;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: wrap;
+    padding: 1rem;
+}
+
+.logo {
+    height: 3rem;
+}
+
+
+
+nav {
+    justify-content: space-between;
+}
+
+.navBar {
+    font-size: 1rem;
+    display: inline;
+    padding: 1rem;
+}
+
+.fondoPerros {
+    width: 100%;
+    background-image: url("img/ft.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: 2rem;
+    padding: 1rem;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    background-color: #dddddd;
+    border-radius: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+.parrafo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+}
+
+.integrantes {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+footer {
+    background-color: #d4b7b7;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: wrap;
+    padding: 1rem;
+    margin-top: auto;
+}
+
+.footerBar {
+    font-size: 1rem;
+    list-style: none;
+    display: inline;
+    padding: 1rem;
+}
