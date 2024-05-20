@@ -16,10 +16,6 @@ header {
   height: 3rem;
 }
 
-nav {
-  justify-content: space-between;
-}
-
 .navBar {
   font-size: 1rem;
   display: inline;
@@ -45,15 +41,14 @@ height: 400px;
 }
 
 .container {
-  margin: 2rem;
   padding: 1rem;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   background-color: #dddddd;
   border-radius: 30px;
   display: flex;
   justify-content: center;
-  width: 30%;
-  margin-left: 35%;
+  width: 50%;
+  margin: 2rem auto;
 }
 
 .listado{
@@ -206,7 +201,7 @@ ul {
 footer {
   background-color: #d4b7b7;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   flex-flow: wrap;
   padding: 1rem;
