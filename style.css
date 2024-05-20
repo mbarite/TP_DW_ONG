@@ -21,10 +21,10 @@ nav {
     justify-content: space-between;
 }
 
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
+nav ul li a:hover {
+  color: rgb(170, 170, 170); /*para que se cambie de color a gris*/
 }
+
 
 .navBar {
     font-size: 1rem;
