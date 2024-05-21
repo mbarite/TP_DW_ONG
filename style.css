@@ -190,14 +190,33 @@ ul {
 
 
 /* Seccion Proyecto */
-.footerproyecto{
-  background-color: #d4b7b7;
-  margin-top:250px;
-  height:50px;
+.main-inicio {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-flow: wrap;
+  justify-content: center;
+}
+
+.seccion-propuesta {
+  background-color: #F3F3F3;
+  height: 520px;
+  width: 800px;
+  margin: 35px 0px;
+  border-radius: 20px;
+  padding: 40px 80px;
+}
+
+.seccion-propuesta h1 {
+  text-align: center;
+  color: #d4b7b7;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.seccion-propuesta p {
+  color: #5E5E5E;
+  font-size: 22.8px;
+  text-align: justify;
+  padding-right: 50px;
 }
 /* repito footer porq en la parte de proyecto quedaba raro*/
 
