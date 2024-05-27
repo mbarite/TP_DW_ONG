@@ -190,6 +190,12 @@ ul {
 
 
 /* Seccion Proyecto */
+.main-inicio{
+background-image: url(/img/Perros-en-adopcion_nota.png);
+}
+
+
+
 .main-inicio {
   display: flex;
   justify-content: center;
@@ -197,7 +203,7 @@ ul {
 
 .seccion-propuesta {
   background-color: #F3F3F3;
-  height: 520px;
+  height: 300px;
   width: 800px;
   margin: 35px 0px;
   border-radius: 20px;
