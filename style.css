@@ -111,7 +111,7 @@ ul {
   justify-content: center;
 }
 
-.caja{
+.cajaIntegrantes{
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
@@ -120,6 +120,7 @@ ul {
   grid-column-gap: 80px;
   grid-row-gap: 50px;
   margin-bottom: 10px;
+  padding: 2rem 1rem;
 }
 
 .cajaIntegrante1 {
@@ -165,7 +166,6 @@ ul {
 .fotoIntegrantes {
   border-radius: 30px;
   width: 115px;
-  margin-top: 45px;
 }
 
 .texto-boton a {
@@ -190,33 +190,26 @@ ul {
 
 
 /* Seccion Proyecto */
-.main-inicio{
-background-image: url(/img/Perros-en-adopcion_nota.png);
-}
-
-
-
-.main-inicio {
-  display: flex;
-  justify-content: center;
-}
 
 .seccion-propuesta {
-  background-color: #F3F3F3;
-  height: 300px;
-  width: 800px;
-  margin: 35px 0px;
-  border-radius: 20px;
-  padding: 40px 80px;
+  padding: 1rem;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  background-color: #dddddd;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: 2rem auto;
+  flex-direction: column;
 }
 
-.seccion-propuesta h1 {
+.tituloProyecto {
   text-align: center;
-  color: #d4b7b7;
   font-size: 40px;
   font-weight: 600;
   margin-bottom: 20px;
 }
+
 
 .seccion-propuesta p {
   color: #5E5E5E;
@@ -231,6 +224,18 @@ background-image: url(/img/Perros-en-adopcion_nota.png);
 
 /* seccion avances */
 
+.cajaAvances{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 80px;
+  grid-row-gap: 50px;
+  margin-bottom: 10px;
+  padding: 2rem 1rem;
+}
+
 .container1Avances {
   padding: 1rem;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
@@ -238,24 +243,35 @@ background-image: url(/img/Perros-en-adopcion_nota.png);
   border-radius: 30px;
   display: flex;
   justify-content: center;
-  width: 60%;
+  width: 65%;
   margin: 2rem auto;
   flex-direction: column;
   align-items: center;
+  max-width: 800px;
 }
 .container2Avances{
   padding: 1rem;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-  background-color: #F3F3F3;
+  background-color: #dddddd;
   border-radius: 30px;
   display: flex;
   justify-content: center;
-  width: 40%;
+  width: 50%;
   margin: 2rem auto;
   flex-direction: column;
   align-items: center;
+  max-width: 500px;
+  margin-top: 3rem;
 
 }
+
+.tituloAvances {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
 .avanceslogo{
   display: flex;
   justify-content: center;
@@ -288,23 +304,26 @@ background-image: url(/img/Perros-en-adopcion_nota.png);
   border-radius: 20px;
   font-size: 25px;
   font-weight: 600;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   margin: 1rem
 }
 
 #color1{
 background-color:#d4b7b7;
-box-shadow:  1px 1px 4px rgba(0, 0, 0, 0.5);
+box-shadow:  5px 5px 4px rgba(0, 0, 0, 0.5);
+border: black solid 3px;
 }
 
 #color2{
 background-color:#dddddd ;
-box-shadow:  1px 1px 4px rgba(0, 0, 0, 0.5);
+box-shadow:  5px 5px 4px rgba(0, 0, 0, 0.5);
+border: black solid 3px;
 }
 
 #color3{
 background-color:#000000 ;
-box-shadow:  1px 1px 4px rgba(0, 0, 0, 0.5);
+box-shadow:  5px 5px 4px rgba(0, 0, 0, 0.5);
+border: black solid 3px;
 }  
 
 
