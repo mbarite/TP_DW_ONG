@@ -2,10 +2,9 @@
 
 * {
   margin: 0px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
-
 
 header {
   background-color: #d4b7b7;
@@ -46,7 +45,7 @@ a:visited {
   width: 100%;
 }
 
-/* Seccion Inicio*/
+/* Sección Inicio*/
 
 .containerIndex {
   padding: 1rem 2rem;
@@ -59,24 +58,23 @@ a:visited {
   margin: 1rem auto 2rem;
 }
 
-.listado{
-display: flex;
+.listado {
+  display: flex;
 }
 
 .tituloInicio {
   margin-left: -1rem;
 }
 
-.logoUade{
-  justify-content:space-around;
+.logoUade {
+  justify-content: space-around;
   align-items: center;
   display: flex;
-  
 }
 
 .fotoUade {
-width: 200px;
-display: flex;
+  width: 200px;
+  display: flex;
 }
 
 ul {
@@ -91,7 +89,9 @@ ul {
   flex-wrap: wrap;
 }
 
-/* seccion integrantes */
+/* Termina seccion inicio */
+
+/* Sección integrantes */
 
 .containerIntegrantes {
   padding: 1rem;
@@ -105,13 +105,12 @@ ul {
   flex-direction: column;
 }
 
-
 .titulo {
   display: flex;
   justify-content: center;
 }
 
-.cajaIntegrantes{
+.cajaIntegrantes {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
@@ -135,32 +134,32 @@ ul {
 
 .cajaIntegrante2 {
   grid-row: 1;
-    grid-column: 2 / 2;
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    align-items: center;
-    justify-content: space-between;
+  grid-column: 2 / 2;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .cajaIntegrante3 {
   grid-row: 2;
-    grid-column: 1 / 2;
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    align-items: center;
-    justify-content: space-between;
+  grid-column: 1 / 2;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .cajaIntegrante4 {
   grid-row: 2;
-    grid-column: 2 / 2;
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    align-items: center;
-    justify-content: space-between;
+  grid-column: 2 / 2;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .fotoIntegrantes {
@@ -178,7 +177,6 @@ ul {
   display: flex;
   justify-content: center;
   width: 90px;
-
 }
 
 .texto-boton h2 {
@@ -187,11 +185,11 @@ ul {
   margin-bottom: 20px;
 }
 
+/* Termina sección integrantes */
 
+/* Sección Proyecto */
 
-/* Seccion Proyecto */
-
-.seccion-propuesta {
+.seccion-proyecto {
   padding: 1rem;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   background-color: #dddddd;
@@ -205,36 +203,21 @@ ul {
 
 .tituloProyecto {
   text-align: center;
-  font-size: 40px;
+  font-size: 2rem;
   font-weight: 600;
-  margin-bottom: 20px;
 }
 
-
-.seccion-propuesta p {
-  color: #5E5E5E;
-  font-size: 22.8px;
+.seccion-proyecto p {
+  color: #5e5e5e;
+  font-size: 1.2rem;
   text-align: justify;
-  padding-right: 50px;
+  padding: 1rem;
 }
 /* repito footer porq en la parte de proyecto quedaba raro*/
 
+/* Termina sección proyecto */
 
-/* seccion avances */
-
-/* seccion avances */
-
-.cajaAvances{
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
-  align-items: center;
-  grid-column-gap: 80px;
-  grid-row-gap: 50px;
-  margin-bottom: 10px;
-  padding: 2rem 1rem;
-}
+/* Sección avances */
 
 .container1Avances {
   padding: 1rem;
@@ -249,7 +232,25 @@ ul {
   align-items: center;
   max-width: 800px;
 }
-.container2Avances{
+
+.tituloAvances {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.cajaAvances {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  padding: 1rem;
+}
+
+.container2Avances {
   padding: 1rem;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
   background-color: #dddddd;
@@ -262,17 +263,9 @@ ul {
   align-items: center;
   max-width: 500px;
   margin-top: 3rem;
-
 }
 
-.tituloAvances {
-  text-align: center;
-  font-size: 40px;
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-
-.avanceslogo{
+.avanceslogo {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -281,17 +274,17 @@ ul {
   flex-direction: column;
 }
 
-.logochico {
-  width: 5rem;
-  margin: 1rem;
+.avanceslogo h1 {
+  padding-bottom: 0.25rem;
 }
 
-.colores {
-    display: flex;
-    margin-bottom: 5%;
-    margin-top: 2%;
-    flex-direction: column;
-    align-items: center;
+.avanceslogo p a {
+  color: blue;
+}
+
+.logochico {
+  width: 5rem;
+  margin-top: 0.25rem;
 }
 
 .color {
@@ -305,27 +298,28 @@ ul {
   font-size: 25px;
   font-weight: 600;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  margin: 1rem
+  margin: 1rem;
 }
 
-#color1{
-background-color:#d4b7b7;
-box-shadow:  5px 5px 4px rgba(0, 0, 0, 0.5);
-border: black solid 3px;
+#color1 {
+  background-color: #d4b7b7;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+  border: black solid 3px;
 }
 
-#color2{
-background-color:#dddddd ;
-box-shadow:  5px 5px 4px rgba(0, 0, 0, 0.5);
-border: black solid 3px;
+#color2 {
+  background-color: #dddddd;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+  border: black solid 3px;
 }
 
-#color3{
-background-color:#000000 ;
-box-shadow:  5px 5px 4px rgba(0, 0, 0, 0.5);
-border: black solid 3px;
-}  
+#color3 {
+  background-color: #000000;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+  border: black solid 3px;
+}
 
+/* Termina sección avances */
 
 footer {
   background-color: #d4b7b7;
