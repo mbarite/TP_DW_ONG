@@ -29,6 +29,23 @@ header {
   padding: 1rem;
 }
 
+.nav-bar{
+  color: #fefefe;
+  border-radius: 50px;
+  transition: 0.2s;
+}
+
+
+.nav-bar ul li a:hover{
+  color: #fefefe;
+  background: #d4b7b7;
+}
+
+.nav-bar ul li a.active{
+  color: #fefefe;
+  background: #d4b7b7;
+}
+
 a {
   color: rgb(14, 13, 13); /*para que se cambie de color a gris*/
   text-decoration: none;
@@ -40,6 +57,8 @@ a:hover {
 a:visited {
   color: black;
 }
+
+
 
 .fotoPerro {
   width: 100%;
