@@ -29,19 +29,18 @@ header {
   padding: 1rem;
 }
 
-.nav-bar{
+.nav-bar {
   color: #fefefe;
   border-radius: 50px;
   transition: 0.2s;
 }
 
-
-.nav-bar ul li a:hover{
+.nav-bar ul li a:hover {
   color: #fefefe;
   background: #d4b7b7;
 }
 
-.nav-bar ul li a.active{
+.nav-bar ul li a.active {
   color: #fefefe;
   background: #d4b7b7;
 }
@@ -57,8 +56,6 @@ a:hover {
 a:visited {
   color: black;
 }
-
-
 
 .fotoPerro {
   width: 100%;
@@ -276,11 +273,10 @@ ul {
   border-radius: 30px;
   display: flex;
   justify-content: center;
-  width: 50%;
   margin: 2rem auto;
   flex-direction: column;
   align-items: center;
-  max-width: 500px;
+  max-width: 40%;
   margin-top: 3rem;
 }
 
@@ -294,7 +290,7 @@ ul {
 }
 
 .avanceslogo h1 {
-  padding-bottom: 0.25rem;
+  padding-bottom: 0.40rem;
 }
 
 .avanceslogo p a {
@@ -336,6 +332,11 @@ ul {
   background-color: #000000;
   box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
   border: black solid 3px;
+}
+
+.arbol {
+  display: flex;
+  width: 100%;
 }
 
 /* Termina sección avances */
