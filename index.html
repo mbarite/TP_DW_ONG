@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Huellitas de Esperanza</title>
     <link rel="icon" href="./img/huella.png" type="image/x-icon?">
 </head>
 <body>
     <Header>
         <div>
-            <img class="logo" src="img/huella_perro.svg" alt="huella de perro">
+          <a href="index.html"><img class="logo" src="img/huella_perro.svg" alt="huella de perro"></a>
         </div>
         <div>
             <h1 class="nombrePagina">Huellitas de esperanza</h1>
@@ -31,45 +35,47 @@
                   <a href="avances.html">Avances</a>
               </li>
               <li class="navBar">
-                  <a href="https://www.google.com/" target="_blank">Sitio del Proyecto</a>
+                  <a href="https://elguesebastian.github.io/HuellitasDeEsperanza/" target="_blank">Sitio del Proyecto</a>
               </li>
-              <input type="checkbox" id="toggle"/>
-              <label for="toggle" id="label_toggle"></label>
             </ul>
         </nav>
     </Header>
     <main>
       <div>
-        <img class="fotoPerro" src="img/woman-holding-adopt-me-sign-rescue-dog.jpg" alt="fondo_perros" />
+        <img class="fotoPerro" src="img/woman-holding-adopt-me-sign-rescue-dog.jpg" alt="fondo_perros" a />
       </div>
       <div class="containerIndex">
-        <div class="listado">
+        <div class="tituloCajas">
+          <p>Datos del Equipo</p>
+        </div>
+        <div class="cajaListado">
           <ul>
             <li>
-              <p class="tituloInicio"><strong>Número del equipo:</strong></p>
-              <p class="parrafo">4</p>
+              <p class="tituloInicio">Número del equipo:</p>
+              <p class="parrafoInicio">4</p>
             </li>
             <li>
-              <p class="tituloInicio"><strong>Nombre del equipo: </strong></p>
-              <p class="parrafo">Huellitas de Esperanza</p>
+              <p class="tituloInicio">Nombre del equipo: </p>
+              <p class="parrafoInicio">Huellitas de Esperanza</p>
             </li>
             <li>
-              <p class="tituloInicio"><strong>Año y curso: </strong></p>
-              <p class="parrafo">Primer Año - 465129</p>
+              <p class="tituloInicio">Año y curso: </p>
+              <p class="parrafoInicio">Primer Año - 465129</p>
             </li>
             <li>
-              <p class="tituloInicio"><strong>Materia: </strong></p>
-              <p class="parrafo">Diseño y Desarrollo Web</p>
+              <p class="tituloInicio">Materia: </p>
+              <p class="parrafoInicio">Diseño y Desarrollo Web</p>
             </li>
             <li>
-              <p class="tituloInicio"><strong>Docente:</strong></p>
-              <p class="parrafo">Litovicius, Patricia Carina</p>
+              <p class="tituloInicio">Docente:</p>
+              <p class="parrafoInicio">Litovicius, Patricia Carina</p>
             </li>
           </ul>
+          <div class="logoUade">
+            <img class="fotoUade" src="img/logo uade.png" />
+          </div>
         </div>
-        <div class="logoUade">
-          <img class="fotoUade" src="img/logo uade.png" />
-        </div>
+        
       </div>
     </main>
     <footer id="oaa">
@@ -86,6 +92,5 @@
             <p>UADE DISEÑO Y DESARROLLO WEB</p>
         </li>
     </footer>
-    <script src="dark.js"></script>
 </body>
 </html>
