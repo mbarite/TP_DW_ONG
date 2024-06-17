@@ -18,18 +18,18 @@
         <a href="index.html"><img class="logo" src="img/huella_perro.svg" alt="huella de perro"></a>
       </div>
       <div>
-        <h1 class="nombrePagina">Huellitas de esperanza</h1>
+          <h1 class="nombrePagina">Huellitas de esperanza</h1>
       </div>
       <nav class="nav-bar">
         <ul>
             <li class="navBar">
-                <a href="index.html">Inicio</a>
+                <a class="active" href="index.html">Inicio</a>
             </li>
             <li class="navBar">
                 <a href="integrantes.html">Integrantes</a>
             </li>
             <li class="navBar">
-                <a class="active" href="proyecto.html">Proyecto</a>
+                <a href="proyecto.html">Proyecto</a>
             </li>
             <li class="navBar">
                 <a href="avances.html">Avances</a>
@@ -39,7 +39,33 @@
             </li>
           </ul>
       </nav>
-    </header>
+      <button class="hamburger-menu" id="hamburger-menu">
+        <i class="fas fa-bars"></i>
+      </button>
+      <button id="dark-mode-toggle" class="dark-mode-toggle">
+        <i class="fa-solid fa-moon" id="moon-icon"></i>
+        <i class="fa-solid fa-sun" id="sun-icon" style="display: none;"></i>
+      </button>
+  </header>
+  <nav class="mobile-menu" id="mobile-menu">
+    <ul>
+      <li class="navBar">
+          <a class="active" href="index.html">Inicio</a>
+      </li>
+      <li class="navBar">
+          <a href="integrantes.html">Integrantes</a>
+      </li>
+      <li class="navBar">
+          <a href="proyecto.html">Proyecto</a>
+      </li>
+      <li class="navBar">
+          <a href="avances.html">Avances</a>
+      </li>
+      <li class="navBar">
+          <a href="https://elguesebastian.github.io/HuellitasDeEsperanza/" target="_blank">Sitio del Proyecto</a>
+      </li>
+    </ul>
+  </nav>
     <main>
       <div>
         <img class="fotoPerro" src="img/woman-playing-with-rescue-dogs-shelter2.jpg" alt="fondo_perros"/>
@@ -69,5 +95,6 @@
         <p>UADE DISEÑO Y DESARROLLO WEB</p>
       </li>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -9,11 +9,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Huellitas de Esperanza</title>
-    <link rel="icon" href="./img/huella.png" type="image/x-icon?">
+  <script src="https://kit.fontawesome.com/516023c14b.js" crossorigin="anonymous"></script>
+  <title>Huellitas de Esperanza</title>
+  <link rel="icon" href="./img/huella.png" type="image/x-icon?">
 </head>
 <body>
-    <Header>
+    <header>
         <div>
           <a href="index.html"><img class="logo" src="img/huella_perro.svg" alt="huella de perro"></a>
         </div>
@@ -39,7 +40,33 @@
               </li>
             </ul>
         </nav>
-    </Header>
+        <button class="hamburger-menu" id="hamburger-menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <button id="dark-mode-toggle" class="dark-mode-toggle">
+          <i class="fa-solid fa-moon" id="moon-icon"></i>
+          <i class="fa-solid fa-sun" id="sun-icon" style="display: none;"></i>
+        </button>
+    </header>
+    <nav class="mobile-menu" id="mobile-menu">
+      <ul>
+        <li class="navBar">
+            <a class="active" href="index.html">Inicio</a>
+        </li>
+        <li class="navBar">
+            <a href="integrantes.html">Integrantes</a>
+        </li>
+        <li class="navBar">
+            <a href="proyecto.html">Proyecto</a>
+        </li>
+        <li class="navBar">
+            <a href="avances.html">Avances</a>
+        </li>
+        <li class="navBar">
+            <a href="https://elguesebastian.github.io/HuellitasDeEsperanza/" target="_blank">Sitio del Proyecto</a>
+        </li>
+      </ul>
+    </nav>
     <main>
       <div>
         <img class="fotoPerro" src="img/woman-holding-adopt-me-sign-rescue-dog.jpg" alt="fondo_perros" a />
@@ -78,7 +105,7 @@
         
       </div>
     </main>
-    <footer id="oaa">
+    <footer>
         <li class="footerBar">
             <p>465129 - 2024 - C - NOCHE</p>
         </li>
@@ -92,5 +119,6 @@
             <p>UADE DISEÑO Y DESARROLLO WEB</p>
         </li>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
