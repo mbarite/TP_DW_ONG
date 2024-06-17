@@ -163,7 +163,10 @@ ul {
   padding: 2rem 1rem;
 }
 
-.cajaIntegrante1, .cajaIntegrante2, .cajaIntegrante3, .cajaIntegrante4 {
+.cajaIntegrante1,
+.cajaIntegrante2,
+.cajaIntegrante3,
+.cajaIntegrante4 {
   grid-row: auto;
   grid-column: auto;
   display: flex;
@@ -306,6 +309,40 @@ ul {
   width: 100%;
 }
 
+/* seccion sitio proyecto*/
+
+.main-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.seccion-video {
+  background-color: #dddddd;
+  box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+  height: 100px;
+  width: 800px;
+  margin: 50px 0px;
+  border-radius: 20px;
+  padding: 70px 80px;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #d4b7b7;
+}
+
+.seccion-video p {
+  text-shadow: 0 1px 2px rgba(0, 0, 0.1);
+}
+
+iframe {
+  width: 540px;
+  height: 415px;
+}
+
 /* Termina sección avances */
 
 footer {
@@ -327,6 +364,7 @@ footer {
 }
 
 /* Estilo para el botón de hamburguesa */
+
 .hamburger-menu {
   display: none;
   cursor: pointer;
@@ -338,6 +376,7 @@ footer {
 }
 
 /* Estilo para el menú móvil */
+
 .mobile-menu {
   display: none;
   flex-direction: column;
@@ -365,12 +404,15 @@ footer {
 }
 
 /* Modo nocturno */
+
 body.dark-mode {
   background-color: #121212;
   color: #ffffff;
 }
 
-.dark-mode header, .dark-mode nav, .dark-mode footer {
+.dark-mode header,
+.dark-mode nav,
+.dark-mode footer {
   background-color: #1c1c1c;
 }
 
@@ -394,50 +436,50 @@ body.dark-mode {
 
 /*Inicio*/
 
-.dark-mode .tituloCajas{
+.dark-mode .tituloCajas {
   color: #999;
 }
 
-.dark-mode .parrafoInicio{
+.dark-mode .parrafoInicio {
   color: #fff;
 }
 
-.dark-mode .tituloInicio{
+.dark-mode .tituloInicio {
   color: #fff;
 }
 
-.dark-mode .containerIndex{
+.dark-mode .containerIndex {
   color: #444;
   background-color: #222;
 }
 
 /* Integrantes */
 
-.dark-mode .containerIntegrantes{
+.dark-mode .containerIntegrantes {
   color: #fff;
   background-color: #222;
 }
 
 /*Proyecto*/
 
-.dark-mode .seccion-proyecto{
+.dark-mode .seccion-proyecto {
   color: #fff;
   background-color: #222;
 }
 
 /*Avances*/
 
-.dark-mode .container1Avances{
+.dark-mode .container1Avances {
   color: #fff;
   background-color: #222;
 }
 
-.dark-mode .container2Avances{
+.dark-mode .container2Avances {
   color: #fff;
   background-color: #222;
 }
 
-.dark-mode .footerBar{
+.dark-mode .footerBar {
   color: #999;
 }
 
@@ -456,7 +498,14 @@ body.dark-mode {
   display: inline-block; /* Asegura que el icono se muestre */
 }
 
+/* Sitio Proyecto */
+
+.dark-mode .seccion-video a {
+  color: #000000;
+}
+
 /* Botón de modo oscuro */
+
 .dark-mode-toggle {
   border: none;
   color: #fff;
@@ -469,12 +518,8 @@ body.dark-mode {
   color: #444;
 }
 
-
-
 /* Media Query para Dispositivos Móviles */
 @media (max-width: 768px) {
-
-
   .nav-bar {
     display: none;
   }
@@ -497,7 +542,7 @@ body.dark-mode {
   .mobile-menu.show {
     display: flex;
   }
-  
+
   header {
     display: flex;
     flex-direction: row;
@@ -520,22 +565,34 @@ body.dark-mode {
     margin: 0.5rem 0;
   }
 
-  .containerIndex, .containerIntegrantes, .seccion-proyecto, .container1Avances, .container2Avances {
+  .containerIndex,
+  .containerIntegrantes,
+  .seccion-proyecto,
+  .container1Avances,
+  .container2Avances {
     max-width: 90%;
     padding: 1rem;
   }
 
-  .cajaIntegrantes, .cajaAvances {
+  .cajaIntegrantes,
+  .cajaAvances {
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
   }
 
-  .cajaIntegrante1, .cajaIntegrante2, .cajaIntegrante3, .cajaIntegrante4 {
+  .cajaIntegrante1,
+  .cajaIntegrante2,
+  .cajaIntegrante3,
+  .cajaIntegrante4 {
     flex-direction: column;
     align-items: center;
   }
 
-  .titulo, .tituloCajas, .parrafo, .tituloInicio, .tituloAvances {
+  .titulo,
+  .tituloCajas,
+  .parrafo,
+  .tituloInicio,
+  .tituloAvances {
     font-size: 1rem;
     text-align: center;
   }
@@ -560,5 +617,29 @@ body.dark-mode {
   .footerBar {
     padding: 0.5rem;
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 980px) {
+  .seccion-video {
+    width: 50%;
+  }
+  .seccion-video p {
+    font-size: 2rem;
+    text-align: center;
+  }
+  iframe {
+    width: 350px;
+    height: 250px;
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  iframe {
+    width: 267px;
+    height: 199px;
+  }
+  .seccion-video {
+    height: 450px;
   }
 }
